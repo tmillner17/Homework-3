@@ -8,26 +8,38 @@
     <title>Tyler's Game</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="reset.css" type="text/css">
-    <link rel="stylesheet" href="game.js" type="text/js">
 </head>
 
 <body class="body">
-    <h1>Tyler's Game</h1>
-    <h2>Rules!</h2>
-    <ul>Try to guess the word based on the given spaces one letter at a time</ul>
+    
+    <div>
+        <h1>Tyler's Game</h1>
+        <h2>Rules!</h2>
+        <ul>Try to guess the word based on the given spaces one letter at a time</ul>
 
-    <ul>Each time you guess all words that are correct will be displayed in the correct location in the word.</ul>
+        <ul>Each time you guess all words that are correct will be displayed in the correct location in the word.</ul>
 
-    <ul>You get 7 guesses at the word to before you fail!</ul>
+        <ul>You get 7 guesses at the word to before you fail!</ul>
 
-    <ul>letters guessed that are incorrect will be displayed at the bottom of the page.</ul>
+        <ul>letters guessed that are incorrect will be displayed at the bottom of the page.</ul>
 
-    <h3>Category!</h3>
+        <h3>Category!</h3>
+        <p>Different types of non venomous snakes!</p>
+    </div>
 
-    <p>Different types of non venomous snakes!</p>
+
+
+    <p id="word"></p>
+
+    <div class='wins'>
+        Wins:           Loses:          Guesses:        
+    </div>
 
 
     <a><button class="button">Reset</button></a>
+    <footer class='footer'>@Copyright</footer>
+
+    <script src="game.js"></script>
 </body>
 
 </html>

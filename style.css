@@ -1,8 +1,23 @@
 .button{
     position: absolute;
-    bottom: 20%;
+    bottom: 5%;
     left: 0 auto;
 }
 .body{
     background-image: url("beige-tiles.png")
+}
+.footer{
+    position: absolute;
+    bottom: 0%;
+    padding: 5px;
+    text-align: center;
+    left: 50%;
+}
+.wins{
+    position: absolute;
+    bottom: 10%;
+    word-spacing: 10px;
+}
+#word{
+    
 }
