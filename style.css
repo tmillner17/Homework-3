@@ -21,3 +21,7 @@
 #word{
     
 }
+.info{
+    position: absolute;
+    bottom: 8%;
+}
